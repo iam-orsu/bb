@@ -1699,7 +1699,7 @@ pbb_lab_setup() {
     check_exit_status ${APP} ${FUNCTYPE} ${EXIT_STATUS}
     
     echo -e "${spaces}${greenplus} Downloading pbb-labs.zip " 
-    wget https://cdn.fs.teachablecdn.com/iaWfH4NrRp20zLOd3xLr -O /tmp/pbb-labs.zip
+    wget https://raw.githubusercontent.com/iam-orsu/bb/refs/heads/main/labs.zip -O /tmp/pbb-labs.zip
     
     if [[ $finduser == "root" ]]
       then 
